@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gurukool Library</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Top Header -->
+    <div class="top-header">
+      <div class="header-left">
+        <div class="logo">GL</div>
+        <nav class="nav-left">
+          <a href="#">Online</a>  
+          <a href="#">Residential</a>
+          <a href="#">Athletics</a>
+          <a href="#">Alumni</a>
+          <a href="#">Parents</a>
+          <a href="#">...</a>
+        </nav>
+      </div>
+      <div class="nav-right">
+        <a href="#">Request Info</a>
+        <a href="#">Apply Now</a>
+        <a href="#">Visit Us</a>
+        <a href="#" style="color: #147ace">Create Guest Account</a>
+        <button class="sign-in">Sign In</button>
+      </div>
+    </div>
+
+    <!-- Second Header -->
+    <div class="second-header">
+      <div class="library-name">
+        <h1>GURUKOOL LIBRARY</h1>
+      </div>
+      <nav class="library-nav">
+        <div class="dropdown">
+          <a href="#">Resources </a>
+          <div class="dropdown-content">
+            <a href="#">E-books</a>
+            <a href="#">Databases</a>
+            <a href="#">Journals</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#">Services </a>
+          <div class="dropdown-content">
+            <a href="#">Study Rooms</a>
+            <a href="#">Printing</a>
+            <a href="#">Workshops</a>
+          </div>
+        </div>
+        <a href="#">General Info </a>
+        <a href="#">Contact Us</a>
+      </nav>
+    </div>
+    <!-- Search Catalog -->
+    <header class="Search-header">Today's Hours: 7:30 a.m. - 11:45 p.m.</header>
+
+    <div class="hero"><h1>Find Resources</h1></div>
+
+    <div class="container">
+      <div class="search-section">
+        <div class="tabs">
+          <button data-tab="all" class="active">All</button>
+          <button data-tab="books">Books</button>
+          <button data-tab="articles">Articles</button>
+          <button data-tab="audio">Audio/Visual</button>
+          <button data-tab="other">Other</button>
+        </div>
+        <div class="search-box">
+          <input type="text" placeholder="Search audio and visual formats" />
+          <button>Search</button>
+        </div>
+        <div class="filters">
+          <!-- Filters (will change dynamically) -->
+        </div>
+        <div class="links">
+          <!-- Links (will change dynamically) -->
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <h3>Popular Databases</h3>
+        <a href="#">Religion</a>
+        <a href="#">Business</a>
+        <a href="#">Education</a>
+        <a href="#">Psychology</a>
+        <a href="#">Medical Science</a>
+        <button>Browse All Databases</button>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <h4>My Accounts</h4>
+        <p>
+          View items checked out, renew materials, access Interlibrary Loan, and
+          more.
+        </p>
+        <a href="#">View Library Accounts</a>
+      </div>
+      <div class="card">
+        <h4>Ways to Connect</h4>
+        <p>
+          Ask a question, schedule an appointment, reserve a room, or make a
+          suggestion.
+        </p>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="card">
+        <h4>Research Week</h4>
+        <p>
+          Submit projects, locate information, and learn more about Research
+          Week 2026.
+        </p>
+        <a href="#">Research Week Details</a>
+      </div>
+    </div>
+    <!-- Upcoming Events -->
+    <section class="eventsSection">
+      <div class="eventsWrapper">
+        <!-- Left Column: Upcoming Events -->
+        <div class="upcomingEvents">
+          <h2>Upcoming Events</h2>
+          <p class="hpEventsSubtitle">
+            Explore research workshops, faculty talks, and other special events.
+          </p>
+
+          <div class="event">
+            <img src="resources/lib_logo.jpg" alt="" />
+            <div class="eventInfo">
+              <a href="#">Welcome to the Library</a>
+              <p>Monday, Aug 18, 2025 - Sunday, Aug 24, 2025</p>
+            </div>
+          </div>
+
+          <div class="event">
+            <img src="resources/lib_logo.jpg" alt="" />
+            <div class="eventInfo">
+              <a href="#">Open House</a>
+              <p>Thursday, Sep 04, 2025 1-3 p.m.</p>
+            </div>
+          </div>
+
+          <div class="event">
+            <img src="resources/lib_logo.jpg" alt="" />
+            <div class="eventInfo">
+              <a href="#">History: Tools and Primary Texts</a>
+              <p>Tuesday, Sep 09, 2025 7:30 p.m. EST</p>
+            </div>
+          </div>
+
+          <a class="btn" href="#">View Upcoming &amp; Recorded Events</a>
+        </div>
+
+        <!-- Right Column: Slider -->
+        <div class="eventSlider">
+          <div class="slides">
+            <div class="slide active">
+              <img src="resources/college_fest1.jpg" alt="Event 1" />
+            </div>
+            <div class="slide">
+              <img src="resources/college_fest2.webp" alt="Event 2" />
+            </div>
+            <div class="slide">
+              <img src="resources/college_fest3.webp" alt="Event 3" />
+            </div>
+          </div>
+
+          <div class="pagination">1 of 3</div>
+
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recently Added -->
+    <section class="section__recentlyAdded">
+      <h2>Recently Added</h2>
+      <div class="sliderContainer">
+        <div class="sliderContainer__desktop">
+          <div class="ltfl_bookdisplay_widget" id="ltfl_widget_u_7db6e9b0">
+            <iframe
+              data-containerheight=""
+              data-containerwidth=""
+              title="Book Display Widget Homepage Recently Added"
+              id="ltfl_widget_u_7db6e9b0_frame"
+              class="ltfl_bd_iframe"
+              style="
+                overflow: hidden;
+                background: transparent;
+                position: relative;
+                border: none;
+                visibility: visible;
+                width: 916px;
+              "
+              src="https://ltfl.librarything.com/forlibraries/run_ltfl_widget.php?lsa_id=5700&amp;id=33626&amp;newpopup=1&amp;referer=https%3A%2F%2Fwww.liberty.edu%2Flibrary%2F&amp;ch=1116px&amp;cw=950&amp;charset=UTF-8"
+            ></iframe>
+          </div>
+        </div>
+        <div class="sliderContainer__tablet">
+          <div class="ltfl_bookdisplay_widget" id="ltfl_widget_u_362d1c22">
+            <iframe
+              data-containerheight=""
+              data-containerwidth=""
+              title="Book Display Widget Homepage Recently Added (tablet)"
+              id="ltfl_widget_u_362d1c22_frame"
+              class="ltfl_bd_iframe"
+              style="
+                overflow: hidden;
+                background: transparent;
+                position: relative;
+                border: none;
+                visibility: visible;
+                height: 396px;
+                width: 836px;
+              "
+              src="https://ltfl.librarything.com/forlibraries/run_ltfl_widget.php?lsa_id=5700&amp;id=33829&amp;newpopup=1&amp;referer=https%3A%2F%2Fwww.liberty.edu%2Flibrary%2F&amp;ch=1116px&amp;cw=950&amp;charset=UTF-8"
+            ></iframe>
+          </div>
+        </div>
+        <div class="sliderContainer__mobile">
+          <div class="ltfl_bookdisplay_widget" id="ltfl_widget_u_c1a3e8fb">
+            <iframe
+              data-containerheight=""
+              data-containerwidth=""
+              title="Book Display Widget Homepage Recently Added (mobile)"
+              id="ltfl_widget_u_c1a3e8fb_frame"
+              class="ltfl_bd_iframe"
+              style="
+                overflow: hidden;
+                background: transparent;
+                position: relative;
+                border: none;
+                visibility: visible;
+                width: 836px;
+              "
+              src="https://ltfl.librarything.com/forlibraries/run_ltfl_widget.php?lsa_id=5700&amp;id=33832&amp;newpopup=1&amp;referer=https%3A%2F%2Fwww.liberty.edu%2Flibrary%2F&amp;ch=188px&amp;cw=950&amp;charset=UTF-8"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Have Quesation -->
+    <section class="section__haveAQuestion">
+      <div class="row row--noGap">
+        <div class="col col--12">
+          <h2 class="haq__title">Have a question? We can answer it.</h2>
+          <div class="menu-contact-buttons-container">
+            <ul id="menu-contact-buttons">
+              <li>
+                <a href="#"><i class="fa-solid fa-comment-dots"></i> Chat</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-phone"></i> Call</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-envelope"></i> Email</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-regular fa-clock"></i> Schedule an
+                  Appointment</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-main">
+        <!-- Logo & Info -->
+        <div class="footer-column">
+          <div class="footer-logo">
+            <div class="logo-box">G</div>
+            <div class="logo-text">
+              <span class="university-name">GURUKOOL</span><br />
+              <span class="campus-name">Made with GOD</span>
+            </div>
+          </div>
+          <h4>Main Library Information</h4>
+          <p>
+            Address<br />
+            431001
+          </p>
+          <p>91+7822869220</p>
+          <a href="#">Ask a Librarian!</a>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i> </a>
+            <a href="#"><i class="fab fa-reddit-alien"></i></a>
+          </div>
+        </div>
+
+        <!-- Library Resources -->
+        <div class="footer-column">
+          <h4>Library Resources:</h4>
+          <a href="#">Assistive Technology and Services</a>
+          <a href="#">Diversity, Equity, Inclusion, & Accessibility</a>
+          <a href="#">Sensitive Content Statement</a>
+          <a href="#">Library Staff Website</a>
+        </div>
+
+        <!-- Get Involved -->
+        <div class="footer-column">
+          <h4>Get Involved:</h4>
+          <a href="#">Make a Gift</a>
+          <a href="#">Suggest a Purchase</a>
+          <img src="resources/lib_logo.jpg" alt="FDLP Logo" class="fdlp-logo" />
+        </div>
+      </div>
+
+      <!-- Bottom Footer -->
+      <div class="footer-bottom">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Copyright © 2025</a>
+        <a href="#">Accessibility</a>
+        <a href="#">MGMU-CAMPUS</a>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
