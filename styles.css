@@ -492,43 +492,54 @@ footer {
   z-index: 10;
 }
 /* Search Catalog */
-.Search-header {
-  background: #007f4f;
-  color: #fff;
-  text-align: right;
-  padding: 8px 20px;
-  font-size: 14px;
-}
-.hero {
-  position: relative;
-  background: url("resources/lib_bg.webp") no-repeat center center/cover;
-  padding: 60px 20px;
-  color: white;
-  text-align: center;
-  font-size: 32px;
-  font-weight: bold;
-}
+.search-wrapper {
+  background: 
+    linear-gradient(to bottom, rgba(255,255,255,0) 70%, #fff 100%),
+    url("resources/lib_bg.webp") no-repeat center top;
+  background-size: cover;
+  border-radius: 8px 8px 0 0;
+  padding: 20px;}
 
-.hero::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.4); /* dark overlay */
-  z-index: 1;
+.lib_time,
+.hero h1,
+.search-section,
+.sidebar {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 6px;
+  padding: 10px 20px;
 }
 
 .hero h1 {
-  position: relative;
-  z-index: 2;
+  background: linear-gradient(90deg, #007f4f, #00c2a8);
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: thistle;            */
+  color: #fff;                
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.6);        
+  display: inline-block;                   
+  padding-bottom: 8px;
+  margin: 20px auto;
+}
+
+.lib_time {
+ text-align: right;
+  margin: 5px 20px;   /* keeps it aligned with nav spacing */
+  background: rgba(5, 161, 13, 0.75);
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  display: inline-block;
+  float: right;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  gap: 20px;
+  padding: 20px 0;
 }
 
 .search-section {
@@ -539,7 +550,7 @@ footer {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.tabs {
+.tabs { 
   display: flex;
   margin-bottom: 15px;
   border-bottom: 2px solid #ddd;
