@@ -493,12 +493,12 @@ footer {
 }
 /* Search Catalog */
 .search-wrapper {
-  background: 
-    linear-gradient(to bottom, rgba(255,255,255,0) 70%, #fff 100%),
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, #fff 100%),
     url("resources/lib_bg.webp") no-repeat center top;
   background-size: cover;
   border-radius: 8px 8px 0 0;
-  padding: 20px;}
+  padding: 20px;
+}
 
 .lib_time,
 .hero h1,
@@ -513,19 +513,19 @@ footer {
   background: linear-gradient(90deg, #007f4f, #00c2a8);
   /* -webkit-background-clip: text;
   -webkit-text-fill-color: thistle;            */
-  color: #fff;                
+  color: #fff;
   font-size: 2.5rem;
   font-weight: 700;
   text-align: center;
-  text-shadow: 2px 2px 6px rgba(0,0,0,0.6);        
-  display: inline-block;                   
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  display: inline-block;
   padding-bottom: 8px;
   margin: 20px auto;
 }
 
 .lib_time {
- text-align: right;
-  margin: 5px 20px;   /* keeps it aligned with nav spacing */
+  text-align: right;
+  margin: 5px 20px; /* keeps it aligned with nav spacing */
   background: rgba(5, 161, 13, 0.75);
   color: #fff;
   font-size: 14px;
@@ -550,7 +550,7 @@ footer {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.tabs { 
+.tabs {
   display: flex;
   margin-bottom: 15px;
   border-bottom: 2px solid #ddd;
